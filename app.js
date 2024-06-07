@@ -107,7 +107,7 @@ for (let i = start; i <= end; i++){
         output += "BUZZ";
     }
 
-    console.log('${i} ${output}');   
+    console.log(`${i} ${output}`);   
 
     
 }
