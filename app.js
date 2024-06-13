@@ -3,12 +3,13 @@ console.log("Hello World!\n==========\n");
 // Exercise 1 Section
 console.log("EXERCISE 1:\n==========\n");
 
-for (let i = 0; i < 100; i++){
-    if(i % 2 == 0){
+for (let i = 0; i < 100; i++) {
+    if(i % 2 == 0) {
         continue;
     } else {
         console.log(i)
     }
+}
 
 
 // Exercise 2 Section
@@ -48,29 +49,25 @@ while (i <= 100){
     console.log('${i} ${output}');
 
     i++;
-
-    do{
-        let output = "";
-
-        if (x % 3 == 0){
-            output += "FIZZ"
-        }
-    
-        if (x % 5 == 0){
-            output += "BUZZ";
-        }
-    
-        console.log('${x} ${output}');
-    
-        x++;
-        while (x <= 100);
-    
-
-        
-    }
 }
 
+let x = 0;
+do{
+    let output = "";
 
+
+    if (x % 3 == 0){
+        output += "FIZZ"
+    }
+
+    if (x % 5 == 0){
+        output += "BUZZ";
+    }
+
+    console.log('${x} ${output}');
+
+    x++;
+} while (x <= 100);       
 
 
 //Exercise 4
@@ -109,5 +106,4 @@ for (let i = start; i <= end; i++){
 
     console.log(`${i} ${output}`);   
 
-    
 }
