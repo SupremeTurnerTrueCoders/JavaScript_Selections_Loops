@@ -46,7 +46,7 @@ while (i <= 100){
         output += "BUZZ";
     }
 
-    console.log('${i} ${output}');
+    console.log(`${i} ${output}`);
 
     i++;
 }
@@ -64,7 +64,7 @@ do{
         output += "BUZZ";
     }
 
-    console.log('${x} ${output}');
+    console.log(`${x} ${output}`);
 
     x++;
 } while (x <= 100);       
@@ -77,12 +77,12 @@ let n = Math.round(Math.random() * (500 - 100) + 100);
 
 for (let i = 1; i <= n; i++){
     if (i == numberToFind){
-        console.log('Found ${numberToFind}!');
+        console.log(`Found ${numberToFind}!`);
         break;
     }
 }
 
-console.log('Did not find ${numberToFInd} within 1-${n}..');
+console.log(`Did not find ${numberToFInd} within 1-${n}..`);
 
 
 
